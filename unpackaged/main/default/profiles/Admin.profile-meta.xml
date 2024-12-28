@@ -3,6 +3,10 @@
     <custom>false</custom>
     <userLicense>Salesforce</userLicense>
     <classAccesses>
+        <apexClass>AccountTriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CodeBuilder__ApiService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -747,6 +751,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountSource</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Account_Discount_Percentage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Account_Tier__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

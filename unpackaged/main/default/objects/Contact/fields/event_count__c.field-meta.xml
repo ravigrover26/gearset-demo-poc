@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>event_count__c</fullName>
-    <defaultValue>10</defaultValue>
+    <defaultValue>100</defaultValue>
     <externalId>false</externalId>
     <label>event count</label>
     <precision>18</precision>
